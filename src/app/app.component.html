@@ -1,0 +1,21 @@
+<div class="container mt-5">
+  <h1>QUOTES FOR YOU</h1>
+</div>
+<!-- <div class="card" style="width: 18rem; background-color: aquamarine;">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title"></h5>
+    <p >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div> -->
+<div *ngFor='let quote of quotes;let i = index' class="card" style="width: 18rem; background-image: url(/assets/pexels-benjamin-suter-3733269.jpg); color: azure;">
+  <div class="card-body" >
+    <div id={{i}} class="card-text">{{quote.quote}} </div>
+    <br>
+    <div>{{quote.author}}</div>
+    <br>
+    <div>{{quote.uploader}} </div> 
+    <br>  </div>
+  
+</div>
