@@ -8,8 +8,8 @@ import { Quote } from './quote';
 export class AppComponent {
   title = 'quotes-app';
   quotes: Quote[] = [
-    new Quote(1,'The future belongs to those who believe in the beauty of their dreams.', 'Pinky Jude', 'uploader',new Date(2020,3,14),3,4),
-     new Quote(2,'The best is yet to come', 'Wendy Ondigo', 'uploader',new Date(2019,6,9),3,4),
+    new Quote(1,'The future belongs to those who believe in the beauty of their dreams.', 'Pinky Jude', 'uploader',new Date(2020,3,14),0,0),
+     new Quote(2,'The best is yet to come', 'Wendy Ondigo', 'uploader',new Date(2019,6,9),0,0),
     // new QuoteTemplate(3,'my quote', 'Author', 'uploader',new Date(2022,1,12)),
     // new QuoteTemplate(4,'my quote', 'Author', 'uploader',new Date(2019,0,18)),
     // new QuoteTemplate(5,'my quote', 'Author', 'uploader',new Date(2019,2,14)),
