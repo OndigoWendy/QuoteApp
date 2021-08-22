@@ -29,7 +29,7 @@ Testing to see if we get any data
   <h2 class="text-center">Create a new Quote</h2>
 
   <hr>
-  <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
+  <form (ngSubmit)='submitQuote(quoteForm);quoteForm.resetForm({})' #quoteForm='ngForm'>
       <div class="form-group">
 
          
