@@ -10,9 +10,9 @@ export class QuoteInfoComponent implements OnInit {
 
   @Output() isComplete = new EventEmitter<boolean>();
  
-   quoteComplete(complete:boolean){
-     this.isComplete.emit(complete);
-   }
+  //  quoteComplete(complete:boolean){
+  //    this.isComplete.emit(complete);
+  //  }
    quoteDelete(complete:boolean){
     this.isComplete.emit(complete);
   }

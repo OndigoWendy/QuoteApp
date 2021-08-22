@@ -5,7 +5,8 @@ import { AppComponent } from './app.component';
 import { QuoteInfoComponent } from './quote-info/quote-info.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { FormsModule } from '@angular/forms';
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule } from 'src/app-routing.module';
+import { TimeLapsePipe } from './time-lapse.pipe';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { AppRoutingModule } from './app-routing.module';
     AppComponent,
     QuoteInfoComponent,
     QuoteFormComponent,
+    TimeLapsePipe,
 
 
    
@@ -23,6 +25,7 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserModule,
     FormsModule,
     AppRoutingModule
+
    
   ],
   providers: [],
