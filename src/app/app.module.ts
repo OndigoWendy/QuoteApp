@@ -4,7 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { QuoteInfoComponent } from './quote-info/quote-info.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
-
+import { FormsModule } from '@angular/forms';
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
@@ -13,12 +14,15 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
     QuoteInfoComponent,
     QuoteFormComponent,
 
+
    
     
    
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    AppRoutingModule
    
   ],
   providers: [],

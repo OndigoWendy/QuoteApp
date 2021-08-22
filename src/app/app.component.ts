@@ -16,7 +16,14 @@ export class AppComponent {
     // new QuoteTemplate(6,'my quote', 'Author', 'uploader',new Date(2030,3,14)),
   ];
 
-  completeGoal(isComplete: any, index: number){
+  addNewQuote(quote: Quote){
+    let quoteLength = this.quotes.length;
+    quote.id = quoteLength+1;
+    quote.completeDate = new Date(quote.completeDate)
+    this.quotes.push(quote)
+  }
+
+  completeQuote(isComplete: any, index: number){
     if (isComplete) {
       this.quotes.splice(index,1);
     }
