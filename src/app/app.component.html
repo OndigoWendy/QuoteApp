@@ -6,10 +6,7 @@
   
   <div class="card-body">
     <div id={{i}} class="card-text">{{quote.quote}} </div>
-    <br>
-    <div>{{quote.author}}</div>
-    <br>
-    <div>{{quote.uploader}} </div> 
+   
     <br>  
     <app-quote-info  [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-info>
   </div>

@@ -1,9 +1,15 @@
+<div>Author:{{quote.author}}</div>
+<br>
+<div>Submitted by:{{quote.uploader}} </div>
+<br>
 <button (click)= 'quoteComplete(true)' class="btn btn-outline-danger">Delete Quote</button>
+<br><br>
 
 <div class="row">
   <div class="col-md-3">
     <button type="button" class="btn btn-sm btn-success"><i class="fa fa-thumbs-up" (click)="incrementLikes()">Upvote={{quote.likes}}</i></button>  
   </div>
+  
   <div class="col-md-3">
     <button type="button" class="btn btn-sm btn-danger"><i class="fa fa-thumbs-down" (click)="incrementDislikes()">Downvote={{quote.dislikes}}</i></button>  
   </div>
