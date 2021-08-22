@@ -1,8 +1,9 @@
-<div>Author:{{quote.author}}</div>
+<div><i> <u>Author:</u> </i><br>{{quote.author}}</div>
 <br>
-<div>Submitted by:{{quote.uploader}} </div>
+<div><i> <u>Submitted by:</u> </i><br>{{quote.uploader}} </div>
 <br>
-<button (click)= 'quoteComplete(true)' class="btn btn-outline-danger">Delete Quote</button>
+<p><i> <u>Time lapse:</u> </i><br>{{quote.completeDate|timeLapse}} days ago.</p>
+<button (click)= 'quoteDelete(true)' class="btn btn-outline-danger">Delete Quote</button>
 <br><br>
 
 <div class="row">
