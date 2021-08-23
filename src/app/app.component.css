@@ -8,3 +8,7 @@ image
 {
  background-size: cover;
 }
+
+.row{
+  background-image: url(/assets/pexels-benjamin-suter-3733269.jpg);
+}
