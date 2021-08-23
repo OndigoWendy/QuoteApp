@@ -1,30 +1,4 @@
-<!-- <div class="container-fluid">
-  <h2 class="text-center">Create a new Goal</h2>
-  <hr>
-  <form #quoteForm='ngForm'>
-      <div class="form-group">
 
-          <label for="quote">Quote</label>
-          <input type="text" required class="form-control" id="name" [(ngModel)]="newQuote.author" name="author">
-
-Testing to see if we get any data 
-          Display {{newQuote.author}}
-      </div>
-      <div class="form-group">
-
-          <label for="author">Author</label>
-          <textarea class="form-control" id="author" rows="4" required></textarea>
-
-      </div>
-      <div class="form-group">
-
-          <label for="complete">Completion</label>
-          <input type='date' id="complete" required>
-
-      </div>
-      <button type="submit" class="btn btn-success">Add Quote</button>
-  </form>
-</div> -->
 <div class="container-fluid">
   <h2 class="text-center">Create a new Quote</h2>
 
@@ -42,7 +16,7 @@ Testing to see if we get any data
     <div class="form-group">
 
         <label for="author">Author</label>
-        <textarea class="form-control" id="author" rows="4" [(ngModel)]="newQuote.author" name="author" #author="ngModel" required></textarea>
+        <input class="form-control" id="author" rows="4" [(ngModel)]="newQuote.author" name="author" #author="ngModel" required>
         <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
           <p>Author is required</p>
         </div>
@@ -50,19 +24,19 @@ Testing to see if we get any data
     <div class="form-group">
 
       <label for="author">Uploader</label>
-      <textarea class="form-control" id="uploader" rows="4" [(ngModel)]="newQuote.uploader" name="uploader" #uploader="ngModel" required></textarea>
+      <input class="form-control" id="uploader" rows="4" [(ngModel)]="newQuote.uploader" name="uploader" #uploader="ngModel" required>
       <div [hidden]="uploader.valid || uploader.pristine" class="alert alert-danger">
         <p>Author is required</p>
       </div>
   </div>
-    <!-- <div class="form-group">
+    <div class="form-group">
 
         <label for="complete">Completion</label>
         <input type='date' id="complete" [(ngModel)]="newGoal.completeDate" name="completeDate" #completeDate="ngModel" required>
         <div [hidden]="completeDate.valid || completeDate.pristine" class="alert alert-danger">
           <p>Date is required</p>
         </div>
-    </div> -->
+    </div>
     <button type="submit" class="btn btn-success">Add your quote</button>
 </form>
 </div>
