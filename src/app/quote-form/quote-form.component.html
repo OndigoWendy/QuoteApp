@@ -9,34 +9,29 @@
          
         <label for="quote">Quote</label>
         <input type="text" class="form-control" id="quote" [(ngModel)]="newQuote.quote" name="quote" #quote='ngModel' required>
-        <div [hidden]="quote.valid || quote.pristine" class="alert alert-danger">
-          <p>Quote is required</p>
-        </div>
+       
     </div>
     <div class="form-group">
 
         <label for="author">Author</label>
         <input class="form-control" id="author" rows="4" [(ngModel)]="newQuote.author" name="author" #author="ngModel" required>
-        <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
-          <p>Author is required</p>
-        </div>
+        
     </div>
     <div class="form-group">
 
       <label for="author">Uploader</label>
       <input class="form-control" id="uploader" rows="4" [(ngModel)]="newQuote.uploader" name="uploader" #uploader="ngModel" required>
-      <div [hidden]="uploader.valid || uploader.pristine" class="alert alert-danger">
-        <p>Author is required</p>
-      </div>
+     
   </div>
+
+  <br>
     <div class="form-group">
 
-        <label for="complete">Completion</label>
+        <label for="complete">Date submitted:</label>
         <input type='date' id="complete" [(ngModel)]="newGoal.completeDate" name="completeDate" #completeDate="ngModel" required>
-        <div [hidden]="completeDate.valid || completeDate.pristine" class="alert alert-danger">
-          <p>Date is required</p>
-        </div>
+        
     </div>
+    <br>
     <button type="submit" class="btn btn-success">Add your quote</button>
 </form>
 </div>
