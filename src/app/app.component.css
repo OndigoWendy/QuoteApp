@@ -9,7 +9,8 @@ image
  background-size: cover;
 }
 
-.row{
+#row1{
   background-image: url(/assets/pexels-benjamin-suter-3733269.jpg);
   height: 140vh;
+  position: sticky;
 }
