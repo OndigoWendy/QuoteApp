@@ -10,9 +10,8 @@ image
 }
 
 #row1{
-  background-image: url(/assets/pexels-benjamin-suter-3733269.jpg);
+  /* background-image: url(/assets/pexels-benjamin-suter-3733269.jpg); */
   height: 140vh;
   position: sticky;
-  
-  
+  background-color: rgb(58, 57, 57);
 }
