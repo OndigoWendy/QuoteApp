@@ -3,6 +3,7 @@
   font-weight: 900;
   text-decoration: purple;
   text-align: center;
+  position:sticky;
 }
 image
 {
@@ -11,7 +12,7 @@ image
 
 #row1{
   /* background-image: url(/assets/pexels-benjamin-suter-3733269.jpg); */
-  height: 3000vh;
+  height: 1500vh;
   position: sticky;
   background-color: rgb(58, 57, 57);
 }

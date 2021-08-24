@@ -31,7 +31,18 @@ export class AppComponent {
      new Quote(2,'The best is yet to come', 'Polar Rosan', 'Wendy Ondigo',new Date(2019,6,9),0,0),
      new Quote(3,'The sun will rise and we will try again.', 'Sarafina M.','Anita Baker' ,new Date(2022,1,12),0,0),
      new Quote(4,'Never give up','Fifi A.','Sally N.',new Date(2019,0,18),0,0),
-   
+     new Quote(1,'The future belongs to those who believe in the beauty of their dreams.', 'Pinky Jude', 'Andre Wan',new Date(2020,3,14),0,0),
+     new Quote(2,'The best is yet to come', 'Polar Rosan', 'Wendy Ondigo',new Date(2019,6,9),0,0),
+     new Quote(3,'The sun will rise and we will try again.', 'Sarafina M.','Anita Baker' ,new Date(2022,1,12),0,0),
+     new Quote(4,'Never give up','Fifi A.','Sally N.',new Date(2019,0,18),0,0),
+     new Quote(1,'The future belongs to those who believe in the beauty of their dreams.', 'Pinky Jude', 'Andre Wan',new Date(2020,3,14),0,0),
+     new Quote(2,'The best is yet to come', 'Polar Rosan', 'Wendy Ondigo',new Date(2019,6,9),0,0),
+     new Quote(3,'The sun will rise and we will try again.', 'Sarafina M.','Anita Baker' ,new Date(2022,1,12),0,0),
+     new Quote(4,'Never give up','Fifi A.','Sally N.',new Date(2019,0,18),0,0),
+     new Quote(1,'The future belongs to those who believe in the beauty of their dreams.', 'Pinky Jude', 'Andre Wan',new Date(2020,3,14),0,0),
+     new Quote(2,'The best is yet to come', 'Polar Rosan', 'Wendy Ondigo',new Date(2019,6,9),0,0),
+     new Quote(3,'The sun will rise and we will try again.', 'Sarafina M.','Anita Baker' ,new Date(2022,1,12),0,0),
+     new Quote(4,'Never give up','Fifi A.','Sally N.',new Date(2019,0,18),0,0),
   ];
 
   
